@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Кринжуля</title>
+	<link rel="stylesheet" href="CSS/main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
+	<script type="text/javascript">
+		window.onload=function(){
+			let active = false;
+			setInterval(function(){
+				const button = document.querySelector('button').style;
+				button.background=active ? 'yellow' : 'none';
+				active = !active;
+			}, 900);
+		}
+		function superClick(el) {
+			el.style.background = 'black';
+			el.style.color = 'black;'
+		}
+	</script>
+</head>
+<body>
+   <div class="main-headers">
+    <h1>Кринжовый сайт</h1>
+    <h2>Всё о кринже <font color="blue">в мире</font></h2>
+   </div>
+    <hr/>
+
+    <div>
+    	<nav>
+    	<table class="menu">
+    		<tr>
+    			<td><a href="index.html.htm"><button>Главная</button></a></td>
+    		    <td><a href="about-krinzh.html.html"><button>Что такое кринж</button></a></td>
+    			<td><a href="about-me.html.htm"><button>О создателе</button></a></td>
+    		</tr>
+    	</table>
+        </nav>
+    </div>
+    <footer>Сайт создан Олесей в 2022 году</footer>
+</body>
+</html>

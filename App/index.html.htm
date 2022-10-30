@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Кринжуля</title>
+	<link rel="stylesheet" href="CSS/main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="scripts/js-script.js">
+		window.onload=function(){
+			let active = false;
+			setInterval(function(){
+				const button = document.querySelector('button').style;
+				button.background=active ? 'yellow' : 'none';
+				active = !active;
+			}, 900);
+		}
+	</script>
+</head>
+<body>
+   <div class="main-headers">
+    <h1>Кринжовый сайт</h1>
+    <h2>Всё о кринже <font color="blue">в мире</font></h2>
+   </div>
+    <hr/>
+
+    <div>
+    	<nav>
+    	<table class="menu">
+    		<tr>
+    			<td><a href="index.html.htm"><button>Главная</button></a></td>
+    		    <td><a href="about-krinzh.html.html"><button>Что такое кринж</button></a></td>
+    			<td><a href="about-me.html.htm"><button>О создателе</button></a></td>
+    		</tr>
+    	</table>
+        </nav>
+    </div>
+
+   <div class="content">
+     
+     <h3 class="t3"> Вид кринжа - полный <font color="blue">трешак</font></h3>
+      <div>
+        <ul>
+
+             <li><b>Кринжовый</b> — это вызывающий чувство неловкости и стыда за других.</li>
+	         <li>Кто-то что-то придумал и сделал, а стыдно почему-то вам.</li>
+	         <li> Вот такой вот он, загадочный кринж.</li>	
+        </ul>
+
+     </div>
+
+     <div>
+	     <h3 id="1">Чувства при кринже</h3>
+	     <p>Cильное отвращение.</p>
+         <p> Испанский стыд.</p>
+         <p class="t1" onclick="superClick(this)">Хочется тошнить от стыда</p>
+         <p class="t2">Хочется убить того, кто делает кринжовые вещи</p>
+
+     <img src="img/img1.png" alt="">
+     
+     </div>
+     <div>
+         <h3>Свойства кринжа</h3>
+         <table class="test-table" border="1">
+         	<thead>
+         		<tr>
+         			<th>Номер</th>
+         			<th>Значение</th>
+         		</tr>
+         	</thead>
+
+         	<tbody>
+         		<tr>
+         			<td>Первое</td>
+         			<td> это что-то мерзкое, противное, а может быть и нечто странное.</td>
+         		</tr>
+         		<tr>
+         			<td>Второе</td>
+         			<td> это выражение сильного отвращения или сильного омерзения.</td>
+         		</tr>
+
+
+         	</tbody>
+         </table>
+     </div>
+
+
+
+     </div>
+ <footer>Сайт создан Олесей в 2022 году</footer>
+</body>
+</html>
